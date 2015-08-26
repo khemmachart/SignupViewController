@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         
         SignupDataController.sharedInstance.getStarted()
+        
+        // Just test
     }
 }
 
